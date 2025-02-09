@@ -1,0 +1,12 @@
+.responsive-product-image {
+  width: 100%; /* Makes the image take the full width of its container */
+  height: 150px; /* Maintains aspect ratio */
+  max-width: 300px; /* Optional: Set a maximum width for the image */
+  object-fit: contain; /* Ensures the entire image is visible without distortion */
+  border-radius: 8px; /* Optional: Adds rounded corners for a modern look */
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect on hover */
+}
+
+.responsive-product-image:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}

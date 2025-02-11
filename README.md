@@ -14,6 +14,11 @@ Make sure to set the following environment variables in a `.env` file in the roo
 PORT=8002
 DEV_MODE=development
 REACT_APP_API=http://localhost:8002
+MONGO_URL ="add your mongodb url"
+JWT_SECRET = "add you jwt secret"
+BRAINTREE_MERCHANT_ID = "add your braintree merchant id"
+BRAINTREE_PUBLIC_KEY = "add your braintree public key"
+BRAINTREE_PRIVATE_KEY = "add you braintree private key"
 ```
 
 ---
